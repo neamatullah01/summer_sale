@@ -5,13 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Sale</title>
+
+    <!-- for tailwind and daisyui -->
+
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font sans -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+
+    <style>
+        .font-sans{
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+
 </head>
 
 <body>
+    <!-- banner section -->
     <header>
-
+        <div class="flex  flex-col md:flex-row lg:flex-row justify-evenly items-center bg-[#F9F6E2] gap-4">
+            <div class="space-y-10 text-center w-1/4">
+                <h4 class="text-3xl font-medium">---SALE FEVER---</h4>
+                <h1 class="text-5xl font-bold">Purchase TK 200 or above & get <span class="text-[#E527B2]">20% off</span></h1>
+                <div class="flex justify-center items-center gap-4">
+                    <h5 class="text-2xl font-medium">Use Promo Code</h5>
+                    <button class="text-xl font-medium btn btn-secondary text-white">SELL200</button>
+                </div>
+            </div>
+            <div class="">
+                <img src="/images/Summer 1.png" alt="">
+            </div>
+        </div>
     </header>
 </body>
 
