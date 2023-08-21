@@ -1,8 +1,3 @@
-function getInnerText(elementId) {
-    const getElement = document.getElementById(elementId);
-    const getElementText = getElement.innerText;
-    return getElementText;
-}
 let totalPrice = 0;
 
 function getProductDetail(target) {
@@ -39,11 +34,16 @@ function getProductDetail(target) {
                 const discount =((20/100)*totalPrice);
                 const newTotalPrice = totalPrice - discount;
                 previousTotal.innerText = newTotalPrice.toFixed(2);
+
                 const discountField = document.getElementById('discount-field');
                 discountField.innerText = discount.toFixed(2);
                 
             }
         });
-        
     }
+}
+
+
+function goHome(){
+    window.location.href = 'http://127.0.0.1:5500/index.html';
 }
