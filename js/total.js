@@ -45,5 +45,5 @@ function getProductDetail(target) {
 
 
 function goHome(){
-    window.location.href = 'http://127.0.0.1:5500/index.html';
+    window.location.href = 'https://assignment-5-one-beige.vercel.app';
 }
